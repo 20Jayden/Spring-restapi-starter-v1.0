@@ -13,10 +13,10 @@ public interface RestApiMapper {
 	
 	public List<UserVO> selectUser(String user_id) throws Exception;
 	
-	public List<UserVO> insertUser(UserVO vo) throws Exception;
+	public int insertUser(UserVO vo) throws Exception;
 	
-	public List<UserVO> updateUser(UserVO vo) throws Exception;
+	public int updateUser(UserVO vo) throws Exception;
 	
-	public List<UserVO> deleteUser(String user_id) throws Exception;
+	public int deleteUser(String user_id) throws Exception;
 	
 }
